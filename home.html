@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mission1000</title>
+    </head>
+    <body>
+        <!---Hero Section-->
+        <section class="hero">
+            <div class="background">
+        <nav class="navsec"> <!--navigation menu-->
+            <div class="logo"><a href="/home.html"><img src="/Assets/Logo.png" alt="logo"></a></div>
+
+             <!--Mobile Menu-->
+             <ul class="mobilemenu"> 
+                <li onclick=hideSidebar()><a href="#"><img src="Assets/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+                <li><a href="/Thebook.html">The Book</a></li>
+                <li><a href="/Ourmodel.html">Our Model</a></li>
+                <li><a href="/Contactus.html">Contact Us</a></li>
+                <a href="/Partnerwithus.html"><button class="mebutton">Partner With Us</button></a>
+            </ul>
+
+            <ul>
+                <li class="hideonmobile"><a href="/Thebook.html">The Book</a></li>
+                <li class="hideonmobile"><a href="/Ourmodel.html">Our Model</a></li>
+                <li class="hideonmobile"><a href="/Contactus.html">Contact Us</a></li>
+                <a href="/Partnerwithus.html"><button class="herobutton" class="hideonmobile">Partner With Us</button></a>
+                <li onclick=showSidebar() class="menubutton"><a href="#"><img src="/Assets/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+            </ul>
+        </nav>
+
+        <div class="herocontent">
+            <h1>Raising a generation of teens<br>who know God personally</h1>
+            <p1>Mission1000 is a faith-driven initiative committed to<br>nurturing teens through identity, intimacy with God,<br>and purpose - one life, one state, one nation at a time.</p1>
+        </div>
+
+        <div class="buttons">
+            <div>
+                <a href="/Partnerwithus.html"><button class="button1">Sponsor A Teen</button></a>
+            </div>
+
+            <div>
+            <a href="/Thebook.html"><button class="button2">Get The Book</button></a>
+            </div>
+        </div>
+        </div>
+        </section>
+
+        <script>
+        function showSidebar(){ const mobilemenu = document.querySelector('.mobilemenu')
+        mobilemenu.style.display='flex' } 
+
+        function hideSidebar(){ const mobilemenu = document.querySelector('.mobilemenu')
+        mobilemenu.style.display='none' } 
+        </script>
+
+        <main> 
+            <!---About-Section--->
+            <div class="aboutsection">
+            <div class="ourstory">
+                <h2>Our Story</h2>
+                <h4>Short, Honest, Grounded</h4>
+                <p>Mission1000 didn’t start as a book project. It started as a burden; for teens, for foundations, for identity, for souls.</p>
+                <p>After years of working with teens across communities, schools, and rural areas, it became clear that transformation must begin early. Mission1000 exists as a <strong>God-inspired strategy to introduce teens to the Father’s love and build strong foundations for life.</strong></p>
+            </div>
+            <div class="visionmission"><!--- visionbox-->
+                <h2>Our Vision</h2>
+                <p>To raise a generation of teens who know God personally, live with clarity of identity, and grow into wise, skilled contributors to society.</p>
+            </div>
+            <div class="visionmission"><!--- missionbox-->
+                <h2>Our Mission</h2>
+                <p>To introduce teenagers to God as a loving Father through the distribution of The Father You Never Knew book, nurturing a personal relationship with Him.</p>
+                <p class="mission">To support teens spiritually, educationally, and through skill development initiatives that prepare them for purposeful living.</p>
+                <p class="mission">To build a global ecosystem that drives long-term teen transformation through discipleship, mentorship, and empowerment.</p>
+            </div>
+            </div>
+
+            <!--Our Outreach-->
+            <div class="outreach">
+            <div>
+                <h2>Our Outreaches</h2>
+            </div>
+            <div class="images">
+                <div><img src="/Assets/outreach1.png" alt="outreachimage1"></div>
+                <div><img src="/Assets/outreach2.png" alt="outreachimage2"></div>
+                <div><img src="/Assets/outreach3.png" alt="outreachimage3"></div>
+                <div><img src="/Assets/outreach4.png" alt="outreachimage4"></div>
+                <div><img src="/Assets/outreach5.png" alt="outreachimage5"></div>
+                <div><img src="/Assets/outreach6.png" alt="outreachimage6"></div>
+            </div>
+            </div>
+
+            <!--Testimonial Section-->
+            <div class="testimonial">
+                <div>
+                <h2>Testimonies</h2>
+                <h4>Lives Touched Through The Father You Never Knew</h4>
+                </div>
+                <div class="testimonies"><p>One of the greatest joys of this mission is seeing how the message of God's fatherhood is touching lives across different countries and generations.<br>From teenagers to parents, many who have encountered The Father You Never Knew have shared how the book helped them see God differently and grow in their relationship with Him. Here are some of their stories.</p></div>
+                <div class="testimonies"><a href="/testimonies.html"><button>See More Testimonies</button></div></a>
+            </div>
+
+            <!--Partner With Us Section-->
+            <div class="partnerwithus">
+                <div>
+                <h2>How To Support Us</h2>
+                </div>
+                <div class="icons">
+                    <div><a href= "partnerwithus.html"><img src="/Assets/partner1.png" alt="icon1"></a>
+                    <h5>Partner With<br>Mission1000</h5>
+                    </div>
+                    <div class="partner2"><a href= "#contact-us"><img src="/Assets/partner2.png" alt="icon1"></a>
+                    <h5>Be A Sponsor</h5>
+                    </div>
+                    <div class="partner3"><a href= "#contact-us"><img src="/Assets/partner3.png" alt="icon1"></a>
+                    <h5>Volunteer</h5>
+                    </div>
+                </div>
+                <div class="partner"><p>Mission1000 is bigger than one person. If God has placed a burden for teens, education, faith, or generational impact on your heart, there is room for you here.</p></div>
+                <!--<div class="partner"><a href="/Partnerwithus.html"><button>Partner With Us</button></div></a>-->
+            </div>
+
+            <!--Contact Us-->
+            <div class="contactus" id="contact-us">
+                <div><h3>Contact Us</h3></div>
+                <div class="contactcontent">
+                    <div class="left"> <!--LEFT-->
+                        <h5 class="h5">You Can Also Send Us A Message </h5>
+                        <div class="conticons">
+                            <div class="contacticons"><div><a href="https://www.instagram.com/mission1000_outreach?igsh=anVmOTdibDNlYjM1"><img src="/Assets/instagram.png" alt="instagram"></div><span><p3>Instagram</p3></span></a></div>
+                            <div class="contacticons"><div><a href="https://www.facebook.com/share/1E8mssCVCL/"><img src="/Assets/facebook.png" alt="facebook"></div><span><p3>Facebook</p3></span></a></div>
+                            <div class="contacticons"><div><a href="tel:+234-816-306-4293"><img src="/Assets/phone.png" alt="phone"></div><span><p3>+2348163064293</p3></span></a></div>
+                            <div class="contacticons"><div><a href="mailto:mission1000outreach@gmail.com"><img src="/Assets/email.png" alt="email"></div><span><p3>mission1000outreach@gmail.com</p3></span></a></div>
+                        </div>
+                        <div class="book"><img src="/Assets/Book-color.png" alt="book"></div>
+                    </div>
+
+                    <div class="right"> <!--RIGHT-->
+                        <div class="formheadline">
+                            <h5>How Will You Like To Get Involved?</h5>
+                            <h6>You can fill the form below, we will respond as soon as we can </h6>
+                        </div>
+
+                        <form name="contact" action="/thank-you" method="POST" class="contact-form" data-netlify="true" netlify-honeypot="bot-field">
+                            <input type="hidden" name="form-name" value="contact">
+                            <input type="hidden" name="form-name" value="contact">
+                            <p hidden><label>Don’t fill this out: <input name="bot-field"></label></p>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <label for="phone"></label>
+                            <input type="phone" id="phone" name="phone" placeholder="Phone">
+                             <label for="How Do You Wish To Support?">How Do You Wish To Support?</label>
+                             <select id="How Do You Wish To Support?" name="support_selected">
+                                <option value="">Select Your Choice</option>
+                                <option value="partner with mission1000">Partner with mission1000</option>
+                                <option value="sponsor books">Sponsor books</option>
+                                <option value="sponsor school fees">Sponsor school fees</option>
+                                <option value="volunteer">Volunteer</option>
+                            </select>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="user_message" rows="8" cols="50" placeholder="Type your message here..."></textarea>
+                            <button type="submit" value="Submit">Submit</button>
+                        
+                            <div class="form-note"><p4>Your information is safe we us,We do not send promotional messages</p4></div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+
+            <!--FOOTER-->
+            <footer>
+                <div class="flogo"><a href="/home.html"><img src="/Assets/logo colored.png" alt="logo"></a></div>
+
+                <div class="quicklinks">
+                    <div><h5>Quick Links</h5></div>
+                    <nav>
+                        <ul class="link">
+                            <li><a href="/home.html">Home</a></li>
+                            <li><a href="/Thebook.html">The Book</a></li>
+                            <li><a href="/Ourmodel.html">Our Model</a></li>
+                            <li><a href="/Contactus.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="sociallinks">
+                    <div class="social"><h5>Social Links</h5></div>
+                    <div class="socials">
+                        <div class="sicons"><div><a href="mailto:mission1000outreach@gmail.com"><img src="/Assets/emailwhite.png" alt="email"></div><span><p3>Email</p3></span></a></div>
+                        <div class="sicons"><div><a href="https://www.instagram.com/mission1000_outreach?igsh=anVmOTdibDNlYjM1"><img src="/Assets/instagramwhite.png" alt="instagram"></div><span><p3>Instagram</p3></span></a></div>
+                        <div class="sicons"><div><a href="https://www.facebook.com/share/1E8mssCVCL/"><img src="/Assets/facebookwhite.png" alt="facebook"></div><span><p3>Facebook</p3></span></a></div>
+                        <div class="sicons"><div><a href="tel:+234-816-306-4293"><img src="/Assets/phonewhite.png" alt="phone"></div><span><p3>+2348163064293</p3></span></a></div>       
+                    </div>
+                </div>
+                    
+                
+                <div class="copyright-container"><div class="divider"></div><p6>Copyright © 2026. All rights reserved.</p6></div>
+            </footer>
+
+            <form name="contact" netlify hidden>
+                <input type="text" name="name" />
+                <input type="email" name="email" />
+            </form>
+        </main>
+    </body>
+</html>
