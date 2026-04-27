@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -72,3 +73,79 @@
             </footer>
     </body>   
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testimony-thankyou.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Thank You</title>
+    </head>
+    <body>
+        <!---Hero Section-->
+        <section class="hero">
+            <div class="background">
+        <nav class="navsec"> <!--navigation menu-->
+            <div class="logo"><a href="/home.html"><img src="/Assets/Logo.png" alt="logo"></a></div>
+
+             <!--Mobile Menu-->
+             <ul class="mobilemenu"> 
+                <li onclick=hideSidebar()><a href="#"><img src="Assets/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+                <li><a href="/Thebook.html">The Book</a></li>
+                <li><a href="/Ourmodel.html">Our Model</a></li>
+                <li><a href="/Contactus.html">Contact Us</a></li>
+                <a href="/Partnerwithus.html"><button class="mebutton">Partner With Us</button></a>
+            </ul>
+
+            <ul>
+                <li class="hideonmobile"><a href="/Thebook.html">The Book</a></li>
+                <li class="hideonmobile"><a href="/Ourmodel.html">Our Model</a></li>
+                <li class="hideonmobile"><a href="/Contactus.html">Contact Us</a></li>
+                <a href="/Partnerwithus.html"><button class="herobutton" class="hideonmobile">Partner With Us</button></a>
+                <li onclick=showSidebar() class="menubutton"><a href="#"><img src="/Assets/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+            </ul>
+        </nav>
+
+        <div class="herocontent">
+            <h1>Thank You<br>For Sharing Your Testimony</h1>
+            <p1>Your response is appreciated</p1>
+        </div>
+
+        <script>
+        function showSidebar(){ const mobilemenu = document.querySelector('.mobilemenu')
+        mobilemenu.style.display='flex' } 
+
+        function hideSidebar(){ const mobilemenu = document.querySelector('.mobilemenu')
+        mobilemenu.style.display='none' } 
+        </script>
+        </section>
+
+        <footer>
+            <div class="flogo"><a href="/home.html"><img src="/Assets/logo colored.png" alt="logo"></a></div>
+            <div class="quicklinks">
+                <div><h5>Quick Links</h5></div>
+                <nav>
+                    <ul class="link">
+                        <li><a href="/home.html">Home</a></li>
+                        <li><a href="/Thebook.html">The Book</a></li>
+                        <li><a href="/Ourmodel.html">Our Model</a></li>
+                        <li><a href="/Contactus.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sociallinks">
+                <div class="social"><h5>Social Links</h5></div>
+                <div class="socials">
+                    <div class="sicons"><div><a href="mailto:mission1000outreach@gmail.com"><img src="/Assets/emailwhite.png" alt="email"></div><span><p3>Email</p3></span></a></div>
+                    <div class="sicons"><div><a href="https://www.instagram.com/mission1000_outreach?igsh=anVmOTdibDNlYjM1"><img src="/Assets/instagramwhite.png" alt="instagram"></div><span><p3>Instagram</p3></span></a></div>
+                    <div class="sicons"><div><a href="https://www.facebook.com/share/1E8mssCVCL/"><img src="/Assets/facebookwhite.png" alt="facebook"></div><span><p3>Facebook</p3></span></a></div>
+                    <div class="sicons"><div><a href="tel:+234-816-306-4293"><img src="/Assets/phonewhite.png" alt="phone"></div><span><p3>+2348163064293</p3></span></a></div>
+                </div>
+            </div>
+            <div class="copyright-container"><div class="divider"></div><p6>Copyright © 2026. All rights reserved.</p6></div>
+            </footer>
+    </body>   
+</html>
+>>>>>>> 173df31eadd6a28088794ce95758923d4bd8707a
