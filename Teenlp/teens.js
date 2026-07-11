@@ -10,6 +10,15 @@
     starsEl.appendChild(s);
   }
 
+  //Partner
+  document.querySelectorAll('.partner-card').forEach(card => {
+  card.style.cursor = 'pointer';
+
+  card.addEventListener('click', () => {
+    window.open('https://forms.gle/na6PNaBTK9S9FvDr6', '_blank');
+  });
+});
+
   // FAQ accordion
   document.querySelectorAll('.faq-q').forEach(btn => {
     btn.addEventListener('click', () => {
