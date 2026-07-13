@@ -190,6 +190,66 @@ width:60%;}
 
 .mission {margin-top:20px;}
 
+ /* SECTION 5 */
+.section5 {
+  text-align: center;
+  padding: 50px 20px;}
+
+.section5 h2{Padding-bottom:40px;}
+
+.impactcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;}
+
+.impactitem {
+  text-align: center;}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background: #e5e5e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #8b0000;
+  margin: 0 auto 15px;}
+
+.impacttext {
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.impacttext .bold {
+  font-weight: 500;
+  margin-bottom: 10px;}
+@media screen and (max-width: 800px){
+.h5{background-color:#ffffff;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;}
+    .dtext, .secondp{padding-left:30px;
+    padding-right:30px;}
+}
+@media (max-width: 600px) {
+  .impactcontainer {
+    flex-direction: column;
+    gap: 30px;}
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;}}
+
 /* OUR OUREACH */
 .outreach{margin:50px auto;
 text-align:center;}
@@ -254,7 +314,7 @@ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
 .partner p{margin:30px auto;
 width:50%;}
 
-.icons img{width:70px;}
+.icons img{width:100px;}
 
 .icons{display:flex;
     justify-content:center;
